@@ -1,0 +1,9 @@
+ img.center{
+   position:absolute;
+   width:272px; /*image width */
+   height:92px; /*image height */
+   left:50%; 
+   top:50%;
+   margin-left:-186px; /*image width/2 */
+   margin-top:-46px; /*image height/2 */
+ }
