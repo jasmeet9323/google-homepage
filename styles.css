@@ -10,11 +10,16 @@
 
 ul {
   list-style-type: none;
+  text-decoration: none;
 }
 
+li.left{
+  float: left;
+}
 
 li {
   float: right;
+  text-decoration: none;
 }
 
 li a{
