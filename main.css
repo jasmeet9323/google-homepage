@@ -1,4 +1,11 @@
- img.center{
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.center{
     position:absolute;
     width:272px; /*image width */
     height:92px; /*image height */
