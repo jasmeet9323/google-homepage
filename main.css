@@ -10,7 +10,7 @@ img.center{
     position:absolute;
     width:272px; /*image width */
     height:92px; /*image height */
-    left:50%; 
+    left:55%; 
     top:30%;
     margin-left:-186px; /*image width/2 */
     margin-top:-46px; /*image height/2 */
@@ -22,7 +22,11 @@ ul {
 }
 
 div.header{
-  
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 100%;
+  min-width: 980px;
 }
 
 li.left{
@@ -32,11 +36,12 @@ li.left{
 li {
   float: right;
   text-decoration: none;
+  padding-left: 24px;
+  margin: 0;
 }
 
 li a{
   text-align: left;
-  padding: 24px;
   text-decoration: none;
   color: rgba(0,0,0,0.87);
 }
@@ -51,10 +56,8 @@ li.hover{
 
 div.footer{
   position: absolute;
-  margin-left: -27px;
-  margin-right: 30px;
-  padding-left: 27px;
-  bottom: 0;
+  margin-right: 0px;
+  bottom: 0px;
   height: 35px;
   width: 100%;
   background-color: #f2f2f2;
@@ -62,4 +65,25 @@ div.footer{
   border-top: 1px solid #e4e4e4;
   line-height: 40px;
   min-width: 980px;
+}
+
+ul.footer{
+  line-height: 35px;
+  margin: 0;
+  padding-inline-start: 0px;
+  padding-right: 24px;
+}
+
+ul.header{
+  padding-right: 24px;
+  padding-inline-start: 0px;
+  white-space: nowrap;
+}
+
+li.footer{
+  /*padding-bottom: 12px;*/
+}
+
+li.header{
+  display: inline-block;
 }
